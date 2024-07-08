@@ -1,0 +1,27 @@
+.swiper-wrapper {
+    width: 90%;
+    height: max-content !important;
+    padding-bottom: 64px !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+}
+
+.swiper-pagination-bullet {
+    background: #4F46E5;
+}
+
+.swiper-pagination-bullet-active {
+    background: #4F46E5 !important;
+}
+
+.swiper-pagination-bullet {
+    background: #f1f0f5 !important;
+    height: 15px !important;
+    width: 15px !important;
+    margin: 0 8px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #4F46E5 !important;
+}

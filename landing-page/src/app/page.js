@@ -1,4 +1,5 @@
 import Main from "./components/Main";
+import Services from "./components/Services";
 
 export default async function Home() {
   await new Promise((resolve) => {
@@ -7,6 +8,7 @@ export default async function Home() {
   return (
     <div>
       <Main />
+      <Services/>
     </div>
   );
 }
