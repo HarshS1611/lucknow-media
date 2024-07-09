@@ -1,4 +1,5 @@
 import Main from "./components/Main";
+import PortfolioPage from "./components/Portfolio";
 import Services from "./components/Services";
 
 export default async function Home() {
@@ -9,6 +10,7 @@ export default async function Home() {
     <div>
       <Main />
       <Services/>
+      <PortfolioPage/>
     </div>
   );
 }
