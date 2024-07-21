@@ -27,7 +27,7 @@ export default function Contact() {
                 </button>
             </div>
             <div className="absolute w-full gap-5 bottom-0 flex justify-center flex-col border-t-[1px] border-gray-50">
-                <p className="flex items-center mt-10">
+                <div className="flex items-center mt-10">
                     <div className="flex justify-center items-center gap-4">
                         <div className="social-button">
                             <button className="relative w-12 h-12 rounded-full group">
@@ -133,7 +133,7 @@ export default function Contact() {
                     <p className="flex justify-center w-full -ml-60">
                         © 2023 MARKITUP MEDIA PRIVATE LIMITED
                     </p>
-                </p>
+                </div>
 
                 <p className="flex justify-center mb-10">
                     ALL RIGHTS RESERVED
