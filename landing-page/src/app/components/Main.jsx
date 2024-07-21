@@ -9,11 +9,10 @@ export default function Main() {
             </div>
 
             <div className='flex items-center mx-20 justify-around '>
-                <div className='flex flex-col text-white border-white border-l-2 pl-20 py-32 gap-4'>
-                    <h1 className='text-2xl text-white'>In the era of compitition,</h1>
-                    <p className='text-2xl'> make your business</p>
-                    <p className='text-red-400 text-5xl'>Big & Visible</p>
-                    <h1 className='text-2xl'>through advertising.</h1>
+                <div className='flex flex-col text-white border-white font-bold border-l-2 pl-20 py-32 gap-4'>
+                    <h1 className='text-5xl text-white'>YOUR <span className='text-red-600'> VISION</span></h1>
+                    <p className='text-5xl text-red-600'> OUR  <span className='text-white'>CRAFT</span></p>
+                    <p className='text-red-600 text-5xl'>INNOVATE  <span className='text-white'>DIGITALLY</span></p>
                     <p className='text-gray-400'>
                         We are a team of enthusiastic individuals who help brands <br /> grow by unleashing the potential of social media
                     </p>
@@ -33,7 +32,7 @@ export default function Main() {
 
 
                 </div>
-                <div className='bg-purple-400 rounded-full p-4 px-12'>
+                <div className=' rounded-full p-4 px-12'>
                     <Image src='/rocket2.png' alt="Profile" width={500} height={500} />
                 </div>
             </div>
