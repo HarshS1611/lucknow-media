@@ -6,27 +6,33 @@ export default function Contact() {
     return (
         <div className='relative flex flex-col justify-center mx-20 h-screen'>
             <h1 className='flex justify-center text-white text-4xl font-bold'>CONTACT US</h1>
-            <h2 className='flex justify-center mt-10 text-gray-300 text-xl font-semibold'>What our customers say about us</h2>
-            <div className="flex flex-col gap-10">
-                <div className="border-[1px] border-white rounded-full p-4 w-max">
-                    <TfiEmail className="text-white h-8 w-8" />
+            <div className="flex flex-col mt-5 gap-10">
+                <div className="flex gap-20 items-center">
+                    <div className="border-[1px] border-white rounded-full p-4 w-max">
+
+                        <TfiEmail className="text-white h-8 w-8" />
+                    </div>
+                    <div className="flex text-white text-2xl font-bold flex-col items-center">
+                        <h2>lucknowmediaofficial@gmail.com</h2>
+
+                    </div>
                 </div>
                 <div className="flex gap-20 items-center">
                     <div className="border-[1px] border-white rounded-full p-4 w-max">
 
                         <TiContacts className="text-white h-8 w-8" />
                     </div>
-                    <div className="flex flex-col items-center">
+                    <div className="flex text-white text-2xl font-bold flex-col items-center">
                         <h2>FILL OUR CONTACT FORM</h2>
 
                     </div>
 
                 </div>
-                <button className="w-max py-2 ml-36 text-md px-4 bg-white my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-purple-300 before:to-purple-400 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black hover:text-white">
+                <button className="w-max py-2 ml-36 text-md px-4 bg-white my-3 flex items-center justify-center rounded-full cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-purple-300 before:to-purple-400 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black hover:text-white">
                     CONTACT
                 </button>
             </div>
-            <div className="absolute w-full gap-5 bottom-0 flex justify-center flex-col border-t-[1px] border-gray-50">
+            <div className="absolute text-white w-full gap-5 bottom-0 flex justify-center flex-col border-t-[1px] border-gray-50">
                 <div className="flex items-center mt-10">
                     <div className="flex justify-center items-center gap-4">
                         <div className="social-button">
@@ -131,7 +137,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <p className="flex justify-center w-full -ml-60">
-                        © 2023 MARKITUP MEDIA PRIVATE LIMITED
+                        © 2024 LUCKNOW MEDIA PRIVATE LIMITED
                     </p>
                 </div>
 
