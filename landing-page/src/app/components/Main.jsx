@@ -33,7 +33,7 @@ export default function Main() {
 
                 </div>
                 <div className=' rounded-full p-4 px-12'>
-                    <Image src='/rocket2.png' alt="Profile" width={500} height={500} />
+                    <Image className='' src='/rocket2.png' alt="Profile" width={500} height={500} />
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 .swiper-wrapper {
     width: 20%;
     height: max-content !important;
-    padding-bottom: 44px !important;
+    padding-bottom: 34px !important;
     -webkit-transition-timing-function: linear !important;
     transition-timing-function: linear !important;
     position: relative;
@@ -9,11 +9,11 @@
 
 
 .swiper-pagination-bullet {
-    background: #4F46E5;
+    background: white;
 }
 
 .swiper-pagination-bullet-active {
-    background: #4F46E5 !important;
+    background: white !important;
 }
 
 .swiper-pagination-bullet {
@@ -24,5 +24,5 @@
 }
 
 .swiper-pagination-bullet-active {
-    background: #4F46E5 !important;
+    background: white !important;
 }
