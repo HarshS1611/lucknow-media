@@ -9,8 +9,8 @@ export default function Main() {
             </div>
 
             <div className='flex items-center mx-20 justify-around '>
-                <div className='flex flex-col border-white border-l-2 pl-20 py-32 gap-4'>
-                    <h1 className='text-2xl'>In the era of compitition,</h1>
+                <div className='flex flex-col text-white border-white border-l-2 pl-20 py-32 gap-4'>
+                    <h1 className='text-2xl text-white'>In the era of compitition,</h1>
                     <p className='text-2xl'> make your business</p>
                     <p className='text-red-400 text-5xl'>Big & Visible</p>
                     <h1 className='text-2xl'>through advertising.</h1>
