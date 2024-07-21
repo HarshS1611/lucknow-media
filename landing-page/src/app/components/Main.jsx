@@ -9,11 +9,11 @@ export default function Main() {
             </div>
 
             <div className='flex items-center mx-20 justify-around '>
-                <div className='flex flex-col text-white border-white font-bold border-l-2 pl-20 py-32 gap-4'>
+                <div className='flex flex-col text-white border-white font-bold border-l-2 pl-20 py-28 gap-4'>
                     <h1 className='text-5xl text-white'>YOUR <span className='text-red-600'> VISION</span></h1>
                     <p className='text-5xl text-red-600'> OUR  <span className='text-white'>CRAFT</span></p>
                     <p className='text-red-600 text-5xl'>INNOVATE  <span className='text-white'>DIGITALLY</span></p>
-                    <p className='text-gray-400'>
+                    <p className='text-gray-50 mt-6'>
                         We are a team of enthusiastic individuals who help brands <br /> grow by unleashing the potential of social media
                     </p>
                     <div className='flex gap-10 items-center'>
